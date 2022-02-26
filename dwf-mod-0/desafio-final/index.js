@@ -78,9 +78,9 @@ if (jugadorUno.habilidades.velocidad > jugadorDos.habilidades.velocidad) {
   //-----------------------------------------------------------------------//
 
   //COMPARACIÓN POR NIVEL DE VIDA:
-if (jugadorUno.habilidades.velocidad > jugadorDos.habilidades.velocidad) {
+if (jugadorUno.habilidades.vida > jugadorDos.habilidades.vida) {
     contadorPuntosJug1 ++
-}else if (jugadorUno.habilidades.velocidad < jugadorDos.habilidades.velocidad) {
+}else if (jugadorUno.habilidades.vida < jugadorDos.habilidades.vida) {
     contadorPuntosJug2 ++
 }else{
     contadorPuntosJug1 ++
