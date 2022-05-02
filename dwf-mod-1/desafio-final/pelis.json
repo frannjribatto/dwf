@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Titanic",
+    "rating": 5,
+    "tags": [
+      "Viaje",
+      "Amor",
+      "Trajedia"
+    ],
+    "genero": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "title": "El diabo viste a la moda",
+    "rating": 4,
+    "tags": [
+      "Moda",
+      "Romance",
+      "Pasantia"
+    ],
+    "genero": [
+      "Comedia"
+    ]
+  },
+  {
+    "title": "El señor de los anillos",
+    "rating": 4.8,
+    "tags": [
+      "Viaje",
+      "Medieval",
+      "Culto"
+    ],
+    "genero": [
+      "Fantasia",
+      "Accion"
+    ]
+  },
+  {
+    "title": "Detective Pikachu",
+    "rating": 4.5,
+    "tags": [
+      "Misterio",
+      "Fantastico",
+      "Enigma"
+    ],
+    "genero": [
+      "Fantasia",
+      "Anime"
+    ]
+  },
+  {
+    "title": "Moana",
+    "rating": 3.5,
+    "tags": [
+      "corazon",
+      "Naturaleza",
+      "Mitologia"
+    ],
+    "genero": [
+      "Animada",
+      "Comedia"
+    ]
+  }
+]

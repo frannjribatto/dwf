@@ -1,0 +1,56 @@
+[
+  {
+    "nombre": "Franco",
+    "edad": 26,
+    "cosas": [
+      "mangas",
+      "anime",
+      "musica"
+    ]
+  },
+  {
+    "nombre": "Carolina",
+    "edad": 26,
+    "cosas": [
+      "perrear",
+      "comedia",
+      "musica"
+    ]
+  },
+  {
+    "nombre": "Eliana",
+    "edad": 26,
+    "cosas": [
+      "mangas",
+      "anime",
+      "BTS"
+    ]
+  },
+  {
+    "nombre": "Micaela",
+    "edad": 25,
+    "cosas": [
+      "mangas",
+      "anime",
+      "diseño"
+    ]
+  },
+  {
+    "nombre": "German",
+    "edad": 26,
+    "cosas": [
+      "magic!",
+      "videojuegos",
+      "rol"
+    ]
+  },
+  {
+    "nombre": "Mauro",
+    "edad": 26,
+    "cosas": [
+      "magic!",
+      "videojuegos",
+      "series"
+    ]
+  }
+]

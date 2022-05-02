@@ -1,12 +1,22 @@
 const fs = require("fs");
 
-try {
-  const p = console.log;
-  const datos = fs.readFileSync("personas.json");
-  p(datos);
-} catch (err) {
-  console.log(err);
+function getDatos() {
+  const datos = fs.readFileSync("datos.json");
+  const parsedData = JSON.parse(datos.toString());
+  return parsedData;
 }
-// exports.getAll = function obtenerTodos() {};
 
-// exports.getOlderThan = function mayoresDe() {};
+// console.log(getDatos());
+
+exports.getAll = function () {
+  const datos = getDatos();
+  return datos;
+};
+
+exports.getOlderThan = function (mayor) {
+  const datos = getDatos();
+  const mayoresQue = datos.filter(function (item) {
+    return item.edad > mayor;
+  });
+  return mayoresQue;
+};
