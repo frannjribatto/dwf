@@ -1,5 +1,5 @@
-function addData(arg) {}
+import { getAll, getByID } from "./cosas";
 
-function main() {
-  const argumento = process.argv.slice(2);
-}
+function main() {}
+
+main();
