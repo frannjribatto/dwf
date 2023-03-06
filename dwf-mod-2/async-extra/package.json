@@ -1,0 +1,35 @@
+{
+  "name": "test-ava",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ava",
+    "start": "ts-node src/index.ts"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ava/typescript": "^2.0.0",
+    "@sindresorhus/tsconfig": "^1.0.2",
+    "@types/jsonfile": "^6.1.0",
+    "ava": "^5.0.1",
+    "lodash": "^4.17.21",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "minimist": "^1.2.5",
+    "ts-node": "^10.9.1"
+  }
+}
