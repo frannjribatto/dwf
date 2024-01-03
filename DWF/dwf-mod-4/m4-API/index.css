@@ -59,7 +59,7 @@ body{
 
 .result-item{
     display: flex;
-    height: 130px;
+    height: auto;
 }
 .result-item-img{
     padding: 6px;
