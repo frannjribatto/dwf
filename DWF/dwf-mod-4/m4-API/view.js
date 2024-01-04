@@ -5,10 +5,10 @@ export function shwRsltsCount(res) {
 }
 
 export function shwRslts(res) {
-    console.log(res)
+    
 
     const template = document.querySelector("#temp-card");
-    const contentEl = document.querySelector(".result")
+    const contentEl = document.querySelector(".result-search")
     const templateNav = template.content
 
     for (const results of res){

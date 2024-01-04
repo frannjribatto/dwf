@@ -6,8 +6,9 @@ const formEl = document.querySelector(".search-form");
 formEl.addEventListener("submit", function(e){
     e.preventDefault()
     const itemSearch = e.target.buscar.value;
-    let data = getResults(itemSearch);
-    shwRslts(data);
+    
+    getResults(itemSearch).then((result) => {shwRslts(result)});
+    
 })
 }
 

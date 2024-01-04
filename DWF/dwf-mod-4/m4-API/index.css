@@ -40,7 +40,12 @@ body{
     border-radius: 4px;
 }
 
-.content{
+.results-count{
+    display: flex;
+    margin: 0 auto;
+}
+
+.content .result-search{
     display: flex;
     flex-direction: column;
     width: 510px;
@@ -48,6 +53,11 @@ body{
 }
 
 .result{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    margin: auto;
+    margin-top: 10px;
     border: solid 1px;
     border-radius: 4px;
 }    
