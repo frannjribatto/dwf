@@ -1,11 +1,15 @@
 
-export function shwRsltsCount(res) {
+function shwRsltsCount(res) {
     const countEl = document.querySelector(".results-count");
-    countEl.textContent = res.lenght()
+    countEl.textContent = res
+}
+
+function rmRslts(){
+    
 }
 
 export function shwRslts(res) {
-    
+    shwRsltsCount(res.length)
 
     const template = document.querySelector("#temp-card");
     const contentEl = document.querySelector(".result-search")

@@ -40,11 +40,6 @@ body{
     border-radius: 4px;
 }
 
-.results-count{
-    display: flex;
-    margin: 0 auto;
-}
-
 .content .result-search{
     display: flex;
     flex-direction: column;
