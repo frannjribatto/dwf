@@ -4,7 +4,7 @@ function shwRsltsCount(res) {
     countEl.textContent = res
 }
 
-function rmRslts(){
+export function rmRslts(){
     
 }
 
@@ -13,6 +13,7 @@ export function shwRslts(res) {
 
     const template = document.querySelector("#temp-card");
     const contentEl = document.querySelector(".result-search")
+    contentEl.textContent = "" 
     const templateNav = template.content
 
     for (const results of res){
