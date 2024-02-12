@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black ;
+}
+
+.header{
+    height: 60px;
+    background-color: #DE4545;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    background-color: #5FE0C9; 
+    height: 530px;
+}
+
+.home__el{
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 960px) {
+
+    body{
+        align-items: center;
+    }
+
+    .home{
+        display: none;
+        justify-content: center;
+        background-color: #5FE0C9; 
+        height: 590px;
+    
+    }
+    
+    .header{
+        display: none;
+    }
+}
