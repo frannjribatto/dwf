@@ -42,6 +42,8 @@ body{
     font-size: 2.4rem;
     line-height: 3.4rem;
     margin-block: 5rem;
+    background: url("/images/bg-pattern-top-mobile.svg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container{
@@ -65,6 +67,8 @@ body{
 
     .first-section{
         display: flex;
+        background: url("/images/bg-pattern-top-desktop.svg") no-repeat center center fixed;
+        background-size: cover;
     }
 
     .card-stars{
@@ -98,6 +102,8 @@ body{
 
 .second-section{
     padding: 0rem 5rem 10rem 5rem;
+    background: url("/images/bg-pattern-bottom-mobile.svg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .card--violet{
@@ -141,6 +147,8 @@ h2 strong{
     .second-section{
         display: flex;
         gap: 5.0rem;
+        background: url("/images/bg-pattern-bottom-desktop.svg") no-repeat center center fixed;
+        background-size: cover;
     }
 
     .card--violet{
